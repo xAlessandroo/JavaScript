@@ -1,8 +1,8 @@
 const person = {
   id: 1,
-  firstName: 'Mario',
-  lastName: 'Rossi',
-  age: 25
+  firstName: "Mario",
+  lastName: "Rossi",
+  age: 25,
 };
 
 // const id = person.id;
@@ -10,6 +10,6 @@ const person = {
 // const lastName = person.lastName;
 // const age = person.age;
 
-[id, firstName, lastName, age] = [person.id, person.firstName, person.lastName, person.age]
+const { id, firstName, lastName, age } = person;
 
 console.log(id, firstName, lastName, age);
